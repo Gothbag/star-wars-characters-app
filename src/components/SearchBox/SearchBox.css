@@ -7,10 +7,10 @@
 }
 
 .search-box .btn {
-	height: 35px;
+	height: 34px;
 	width: 33%;
 	height: 100%;
-	padding: .3rem .8rem .7rem;
+	padding: .3rem .8rem .5rem;
 }
 
 .search-box input {
