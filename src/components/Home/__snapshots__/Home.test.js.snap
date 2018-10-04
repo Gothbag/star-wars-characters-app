@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CharacterCard/> renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    character={Object {}}
+    loadCharacter={[Function]}
+    loadFilms={[Function]}
+    loadPlanet={[Function]}
+    loadSpecies={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SearchBox
+          handleOnClick={[Function]}
+/>,
+        <CharacterCard
+          character={Object {}}
+          films={Object {}}
+          loadPlanet={[Function]}
+          loadSpecies={[Function]}
+          planets={Object {}}
+          species={Object {}}
+/>,
+      ],
+      "className": "col-xs-1-1 col-md-1-3 center",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleOnClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "character": Object {},
+          "films": Object {},
+          "loadPlanet": [Function],
+          "loadSpecies": [Function],
+          "planets": Object {},
+          "species": Object {},
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SearchBox
+            handleOnClick={[Function]}
+/>,
+          <CharacterCard
+            character={Object {}}
+            films={Object {}}
+            loadPlanet={[Function]}
+            loadSpecies={[Function]}
+            planets={Object {}}
+            species={Object {}}
+/>,
+        ],
+        "className": "col-xs-1-1 col-md-1-3 center",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleOnClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "character": Object {},
+            "films": Object {},
+            "loadPlanet": [Function],
+            "loadSpecies": [Function],
+            "planets": Object {},
+            "species": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<Home/> renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    character={Object {}}
+    loadCharacter={[Function]}
+    loadFilms={[Function]}
+    loadPlanet={[Function]}
+    loadSpecies={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SearchBox
+          handleOnClick={[Function]}
+/>,
+        <CharacterCard
+          character={Object {}}
+          films={Object {}}
+          loadPlanet={[Function]}
+          loadSpecies={[Function]}
+          planets={Object {}}
+          species={Object {}}
+/>,
+      ],
+      "className": "col-xs-1-1 col-md-1-3 center",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleOnClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "character": Object {},
+          "films": Object {},
+          "loadPlanet": [Function],
+          "loadSpecies": [Function],
+          "planets": Object {},
+          "species": Object {},
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SearchBox
+            handleOnClick={[Function]}
+/>,
+          <CharacterCard
+            character={Object {}}
+            films={Object {}}
+            loadPlanet={[Function]}
+            loadSpecies={[Function]}
+            planets={Object {}}
+            species={Object {}}
+/>,
+        ],
+        "className": "col-xs-1-1 col-md-1-3 center",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleOnClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "character": Object {},
+            "films": Object {},
+            "loadPlanet": [Function],
+            "loadSpecies": [Function],
+            "planets": Object {},
+            "species": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

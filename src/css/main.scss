@@ -1,0 +1,90 @@
+@import 'global/_var.scss';
+@import 'global/_grid.scss';
+@import 'global/_forms.scss';
+
+
+:global {
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    color: $black;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: $white;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  }
+
+  *,
+  *:after,
+  *:before {
+    box-sizing: inherit
+  }
+  pre {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    overflow: auto;
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  button,
+  html input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  .btn {
+    display: inline-block;
+    padding: 7px 12px 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .btn:hover,
+  .btn:focus,
+  .btn.focus {
+    color: #333;
+    text-decoration: none;
+  }
+
+}
+

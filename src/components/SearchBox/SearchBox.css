@@ -1,0 +1,19 @@
+.search-box {
+	margin-bottom: 5px;
+}
+
+.search-box span {
+	
+}
+
+.search-box .btn {
+	height: 35px;
+	width: 33%;
+	height: 100%;
+	padding: .3rem .8rem .7rem;
+}
+
+.search-box input {
+	margin-right: 1%;
+	width: 65%;
+}
