@@ -1,3 +1,9 @@
+To run this simply run the following commands:
+
+1.  npm install
+2.  npm run build
+3.  npm start
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
